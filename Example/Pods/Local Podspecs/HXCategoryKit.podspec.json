@@ -1,6 +1,6 @@
 {
   "name": "HXCategoryKit",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "summary": "A short description of HXCategoryKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/MCMikey/HXCategoryKit",
@@ -13,15 +13,10 @@
   },
   "source": {
     "git": "https://github.com/MCMikey/HXCategoryKit.git",
-    "tag": "0.0.3"
+    "tag": "0.0.6"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HXCategoryKit/Classes/**/*",
-  "dependencies": {
-    "EZSwiftExtensions": [
-
-    ]
-  }
+  "source_files": "HXCategoryKit/Classes/**/*"
 }
