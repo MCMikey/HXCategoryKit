@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "NSData+Base64.h"
+#import "NSString+Extension.h"
 #import "UINavigationController+FDFullscreenPopGesture.h"
 
 FOUNDATION_EXPORT double HXCategoryKitVersionNumber;

@@ -1,5 +1,7 @@
 PODS:
-  - HXCategoryKit (0.0.2)
+  - EZSwiftExtensions (1.11)
+  - HXCategoryKit (0.0.3):
+    - EZSwiftExtensions
 
 DEPENDENCIES:
   - HXCategoryKit (from `../`)
@@ -9,7 +11,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  HXCategoryKit: 25823d7b54a62a910be731af7e810ef93313231e
+  EZSwiftExtensions: 84000042202d9fd574f626cda3064143f27fa767
+  HXCategoryKit: 70502b46f50b5207ed0ca85212cd11888e12cd87
 
 PODFILE CHECKSUM: e529875630d4a1461004b823780594d6ca9066fe
 

@@ -22,6 +22,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A63B2A9D1FFF5EAA000746A3 /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63B2A9C1FFF5EAA000746A3 /* TestController.swift */; };
 		B8B6A9C1675F62393E244C88 /* Pods_HXCategoryKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1DF5A5314BC1681C1B8858E /* Pods_HXCategoryKit_Tests.framework */; };
 		FA1644D3031EE0CB0F071DC7 /* Pods_HXCategoryKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4915A47D4295F0B8261E92B /* Pods_HXCategoryKit_Example.framework */; };
 /* End PBXBuildFile section */
@@ -58,11 +59,13 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		622995B7FC2FD0CB2FE8BC69 /* Pods-HXCategoryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXCategoryKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HXCategoryKit_Example/Pods-HXCategoryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7E17FF38E7DD1D8F81F6D5E1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		83E86206C4434475B3413736 /* HXCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HXCategoryKit.podspec; path = ../HXCategoryKit.podspec; sourceTree = "<group>"; };
+		7E17FF38E7DD1D8F81F6D5E1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		83E86206C4434475B3413736 /* HXCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HXCategoryKit.podspec; path = ../HXCategoryKit.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A63B2A9B1FFF5EAA000746A3 /* HXCategoryKit_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HXCategoryKit_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		A63B2A9C1FFF5EAA000746A3 /* TestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
 		A8A5F9865C309AEECF573905 /* Pods-HXCategoryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXCategoryKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HXCategoryKit_Tests/Pods-HXCategoryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AF9DA68F0EEAAEB261760FDD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AF9DA68F0EEAAEB261760FDD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B4915A47D4295F0B8261E92B /* Pods_HXCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HXCategoryKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC5D789438D3B408BF63D8C0 /* Pods-HXCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXCategoryKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HXCategoryKit_Example/Pods-HXCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C1DF5A5314BC1681C1B8858E /* Pods_HXCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HXCategoryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +143,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				A63B2A9C1FFF5EAA000746A3 /* TestController.swift */,
+				A63B2A9B1FFF5EAA000746A3 /* HXCategoryKit_Example-Bridging-Header.h */,
 			);
 			name = "Example for HXCategoryKit";
 			path = HXCategoryKit;
@@ -250,6 +255,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "605055291@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						LastSwiftMigration = 0920;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -337,10 +345,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HXCategoryKit_Example/Pods-HXCategoryKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/EZSwiftExtensions/EZSwiftExtensions.framework",
 				"${BUILT_PRODUCTS_DIR}/HXCategoryKit/HXCategoryKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EZSwiftExtensions.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HXCategoryKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,6 +416,7 @@
 				6003F59E195388D20070C39A /* FFAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* FFViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				A63B2A9D1FFF5EAA000746A3 /* TestController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,12 +544,17 @@
 			baseConfigurationReference = BC5D789438D3B408BF63D8C0 /* Pods-HXCategoryKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HXCategoryKit/HXCategoryKit-Prefix.pch";
 				INFOPLIST_FILE = "HXCategoryKit/HXCategoryKit-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HXCategoryKit/HXCategoryKit_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -548,12 +564,16 @@
 			baseConfigurationReference = 622995B7FC2FD0CB2FE8BC69 /* Pods-HXCategoryKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HXCategoryKit/HXCategoryKit-Prefix.pch";
 				INFOPLIST_FILE = "HXCategoryKit/HXCategoryKit-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HXCategoryKit/HXCategoryKit_Example-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -562,6 +582,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D77FF790E864983B69733A9C /* Pods-HXCategoryKit_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -586,6 +607,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A8A5F9865C309AEECF573905 /* Pods-HXCategoryKit_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
