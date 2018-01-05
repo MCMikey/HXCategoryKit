@@ -1,9 +1,9 @@
 {
   "name": "HXCategoryKit",
-  "version": "0.1.0",
+  "version": "0.0.2",
   "summary": "A short description of HXCategoryKit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/605055291@qq.com/HXCategoryKit",
+  "homepage": "https://github.com/MCMikey/HXCategoryKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "605055291@qq.com": "605055291@qq.com"
   },
   "source": {
-    "git": "https://github.com/605055291@qq.com/HXCategoryKit.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/MCMikey/HXCategoryKit.git",
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "8.0"

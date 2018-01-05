@@ -7,45 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01884BDD030731CECD8C1033CBF28F12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		08A35D2DE82908D2163C3C4D465097A6 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDCF3F1264FE3C58CF48913D77A2078 /* UINavigationController+FDFullscreenPopGesture.m */; };
-		1090ABCF9E9C04F61494CAB494CEB0B7 /* GrandModel+Convert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66E0ADC8F325A85E375396615ED3331 /* GrandModel+Convert.swift */; };
-		17FA8FAC42DE4C355BAD63027E2D8F64 /* GrandStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A105A1619FF95DB8E92EEEF418D4F4 /* GrandStore.swift */; };
+		07B1E17FE98E28CFEF1C4295E6C66591 /* UINavigationController+FDFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 167B6D64B6E77A5CA13A7F5E0FDAE209 /* UINavigationController+FDFullscreenPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		19CD7B645D347BE694B5520A505075BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		2166958100869DB79EDE840C8EA8F048 /* MCTabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4430F246C40DBA2F3758B7AAB55379 /* MCTabBarButton.swift */; };
-		224D2E4EFCA13C4C4AF350BB7D489239 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFB4B10236025F63818C7541910108 /* ReplaceMe.m */; };
-		2C68D1F47A9F596B6975AD24F3C81CDB /* UINavigationController+FDFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = F010BB0E57E5365904D0B61F9880E53B /* UINavigationController+FDFullscreenPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3540C5E4CC28CA888231837BDA1D9069 /* CacheTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572610A7E6BF9F857C65087C1B78C187 /* CacheTool.swift */; };
-		36DFF302B03BFCE029820A5CF4BF57E5 /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784C996B82BADBB3EE232F9F6EA06587 /* Tool.swift */; };
-		3731C385BC972A6E0438E47D4BAFC87B /* GrandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5625F387920BE40EEB8F961779C1809D /* GrandModel.swift */; };
-		50E977D982EABF4E9C676B52DFE821DB /* TFHpple.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E8EAF3E6173F8DFB0CAB7257F56EE5B /* TFHpple.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5382B1E569964595181F5034CAEF3DF6 /* ResultInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC701A489659DB854E50383D339FA17 /* ResultInfo.swift */; };
-		596BC980B3412CFB00DF63D047576790 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 6960C11B16B71872E3E8F3E5A00C769D /* TFHppleElement.m */; };
-		5DF88B9398F210E30E3E68552BDD76E1 /* GrandType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8AEC3A560C745FD2A28BC0224A1BE2 /* GrandType.swift */; };
-		644E5392DE8012769728D2AD853D0BE9 /* MCTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF82E543DE7A4EA9C7995EC78B290F4 /* MCTabBarView.swift */; };
-		66378C558AA8778570637BB12AB627B7 /* HXCategoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E1E72F56A7FDFBF6389280A8366F82 /* HXCategoryKit-dummy.m */; };
-		6DB41E81450565F3A5C6B5232062FBA7 /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1DDC1711FDCB313B0D1A2F8E802DC2 /* CustomTabBarViewController.swift */; };
-		6F70E7D17C0EA18ECF28C1BB9102BE11 /* JXLayoutButton.h in Headers */ = {isa = PBXBuildFile; fileRef = CF3267E27AB33D9C84BCFFDD7BDF3EFB /* JXLayoutButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70ACABFA8E3722127814229A031D701B /* SegmentMenuTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19F9CF14367D3D32A3C3D70735CEB1 /* SegmentMenuTable.swift */; };
+		46728B8999459D66429DC1D0C8492683 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF22F7D84CE29873A7F7E3F802BDE0D /* UINavigationController+FDFullscreenPopGesture.m */; };
 		7AE0FB0469876711D191C36432DA9003 /* Pods-HXCategoryKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C947698C5085F7AAA788B7AA1CE4561F /* Pods-HXCategoryKit_Tests-dummy.m */; };
-		7C382564E52143C347E9528966A248D3 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E530D3FB8F1DEFB4C5755420351D79 /* XPathQuery.m */; };
-		7CA83C3375B248B0633B3667C58CFF3E /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C175DD437E84F9D122AC1C23DC9E38 /* Toast.swift */; };
+		7D9A5FCF47A4443142B3930924A11A71 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 365D43EF9362969A63B40986246994CF /* ReplaceMe.m */; };
 		86F4FAE6FD18809B73E8C28787821ABC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		8B02AD3EFDD53F1BBED6608ADEDF397D /* JXLayoutButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 77332972EF5B886B932B749DF134C8EC /* JXLayoutButton.m */; };
-		8B7FE2584783F75DC34DCB2BCBDB5F4E /* HXCategoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C814E8A85FC56B17FE8EAED62D57FC35 /* HXCategoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D6DF85A8EBC86A6DBEB899F3D2B3B19 /* TFHppleElement.h in Headers */ = {isa = PBXBuildFile; fileRef = BF428750AE62C33318A5FDA343AE987A /* TFHppleElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F22F058E516376E8D98F9D337685B7E /* Pods-HXCategoryKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADED2DD490FFCE9F20272622F995BEFF /* Pods-HXCategoryKit_Example-dummy.m */; };
 		986B4EF372830ED143F9825DC6CAF31F /* Pods-HXCategoryKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DB9AD8F65ACF8D8822DA8843916203D /* Pods-HXCategoryKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9EF46747C4A1DC44A71C732C25A9CCD9 /* BookClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBBD4092E82070364FD5A49A67FF94B /* BookClient.swift */; };
+		A0C17A014E32AAB1DF3C0D9B026745FC /* HXCategoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F934AE74D6BFE28FA7D6B9CC3AF9F56B /* HXCategoryKit-dummy.m */; };
 		AC54E0F75E3DF90726BB253CC93E2747 /* Pods-HXCategoryKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5047DD72DC0F7A7B4AED62B97FA30C03 /* Pods-HXCategoryKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2B2903D9F296999289A79F2A711D4B0 /* XPathQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = C561F06A27EB18271B84406687643398 /* XPathQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3E7E09B931E1FF77E291F4B4C8626DE /* ColorTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D867988405BB8CC48CDB4F8AFD91671 /* ColorTool.swift */; };
-		C47F61F8286A28177F9CBE018B8ABC24 /* GrandCue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BA049A742858E1C77C62A7395865BA /* GrandCue.swift */; };
-		E3F7824A14E9CA44E491F658E92105F4 /* SegmentButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D12563E6411D19D2E83CFE4A1B390B /* SegmentButtonView.swift */; };
-		E4B97368209C6B253D1EC3D6AF845971 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1AD23AF334C436D80AD57F3A4BC6F8 /* HTTPClient.swift */; };
-		FC0AB212BF3771AB55982FF9B16D8A9F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A4975D53AB4A82A4EE9D32DE46080D /* BaseViewController.swift */; };
-		FC7DEBBED6A05347AF67FF30932D9C5C /* GrandModel+Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654CCCA9E0885B79AC88FC1EA1315297 /* GrandModel+Map.swift */; };
-		FFDB5713AC10BFC7569F81D93C4164C3 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F203DF73A91E72CFD2CF80E0444810 /* TFHpple.m */; };
+		BDD821CDC69B513D09745269669930E1 /* HXCategoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC325BC065EAAFB753EB3503C7E9F0E6 /* HXCategoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3AEC7BACA876799292160EA47923E1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,81 +26,54 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B0E96CDA2E603BB89EF487903C41F70A;
+			remoteGlobalIDString = A79B2BB37360E9DF22BC2EBFC08CC20F;
 			remoteInfo = HXCategoryKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		03876515A684AAA09D8B715DE7DA0CAB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D19F9CF14367D3D32A3C3D70735CEB1 /* SegmentMenuTable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentMenuTable.swift; sourceTree = "<group>"; };
-		0D867988405BB8CC48CDB4F8AFD91671 /* ColorTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorTool.swift; sourceTree = "<group>"; };
-		0DDCF3F1264FE3C58CF48913D77A2078 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		1016AEF9853E51BDB66F0947D5F7907F /* HXCategoryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HXCategoryKit.xcconfig; sourceTree = "<group>"; };
+		14EAFB61F8B61B21AD13ADD4E9976B6E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		167B6D64B6E77A5CA13A7F5E0FDAE209 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+FDFullscreenPopGesture.h"; path = "HXCategoryKit/Classes/UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
 		1AC41E5AD38DE05DAD5109603E0BA138 /* Pods-HXCategoryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXCategoryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1E91444FFA5911463DD41B9597749442 /* HXCategoryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HXCategoryKit.xcconfig; sourceTree = "<group>"; };
-		27E1E72F56A7FDFBF6389280A8366F82 /* HXCategoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HXCategoryKit-dummy.m"; sourceTree = "<group>"; };
-		3015F93050E922C045F3382C9AC69EEA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31A9218AD45EB57EC3211218568155AE /* Pods-HXCategoryKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HXCategoryKit_Tests-resources.sh"; sourceTree = "<group>"; };
-		3A4430F246C40DBA2F3758B7AAB55379 /* MCTabBarButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MCTabBarButton.swift; sourceTree = "<group>"; };
+		365D43EF9362969A63B40986246994CF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HXCategoryKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		3DB9DBF43037F50474DBD31C94AD5A36 /* Pods-HXCategoryKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HXCategoryKit_Example.modulemap"; sourceTree = "<group>"; };
-		42C175DD437E84F9D122AC1C23DC9E38 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		433DC020CCD331C625CDC8C984E8BF9A /* Pods_HXCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HXCategoryKit_Tests.framework; path = "Pods-HXCategoryKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A8AEC3A560C745FD2A28BC0224A1BE2 /* GrandType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GrandType.swift; sourceTree = "<group>"; };
-		4D1DDC1711FDCB313B0D1A2F8E802DC2 /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
 		5047DD72DC0F7A7B4AED62B97FA30C03 /* Pods-HXCategoryKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HXCategoryKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		54E530D3FB8F1DEFB4C5755420351D79 /* XPathQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		55C6718A88922865B034DE793BC52B06 /* HXCategoryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HXCategoryKit.modulemap; sourceTree = "<group>"; };
 		55D4D1DB303AC80B1D5AEF4555DD2820 /* Pods_HXCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HXCategoryKit_Example.framework; path = "Pods-HXCategoryKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5625F387920BE40EEB8F961779C1809D /* GrandModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GrandModel.swift; sourceTree = "<group>"; };
-		572610A7E6BF9F857C65087C1B78C187 /* CacheTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CacheTool.swift; sourceTree = "<group>"; };
 		5B771B01B83E817B15A8E3BB3D1A9214 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		60A4975D53AB4A82A4EE9D32DE46080D /* BaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		61DED2D8FFD6CCAB3EEFAF59DF19C995 /* Pods-HXCategoryKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HXCategoryKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		654CCCA9E0885B79AC88FC1EA1315297 /* GrandModel+Map.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "GrandModel+Map.swift"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6960C11B16B71872E3E8F3E5A00C769D /* TFHppleElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
 		6DB9AD8F65ACF8D8822DA8843916203D /* Pods-HXCategoryKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HXCategoryKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		71674BA9658B50698B6FDC3F4C289848 /* Pods-HXCategoryKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HXCategoryKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		76BA049A742858E1C77C62A7395865BA /* GrandCue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GrandCue.swift; sourceTree = "<group>"; };
-		77332972EF5B886B932B749DF134C8EC /* JXLayoutButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JXLayoutButton.m; sourceTree = "<group>"; };
-		77F203DF73A91E72CFD2CF80E0444810 /* TFHpple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
-		784C996B82BADBB3EE232F9F6EA06587 /* Tool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
-		8EBBD4092E82070364FD5A49A67FF94B /* BookClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BookClient.swift; sourceTree = "<group>"; };
 		905CE67AECE23ABC6681DE84956084F1 /* Pods-HXCategoryKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HXCategoryKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97571B0B64478F7C1A590BBD270960AF /* Pods-HXCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		97BFB4B10236025F63818C7541910108 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HXCategoryKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		9936B753451B4468305E37B3705A1A26 /* Pods-HXCategoryKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXCategoryKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D5109DAA872A7429DADAC374DD2E720 /* HXCategoryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HXCategoryKit-prefix.pch"; sourceTree = "<group>"; };
-		9E8EAF3E6173F8DFB0CAB7257F56EE5B /* TFHpple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
-		A6A105A1619FF95DB8E92EEEF418D4F4 /* GrandStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GrandStore.swift; sourceTree = "<group>"; };
+		9FF22F7D84CE29873A7F7E3F802BDE0D /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+FDFullscreenPopGesture.m"; path = "HXCategoryKit/Classes/UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 		ADED2DD490FFCE9F20272622F995BEFF /* Pods-HXCategoryKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HXCategoryKit_Example-dummy.m"; sourceTree = "<group>"; };
 		AE90D54474BF57985ACAFDBF092D895B /* HXCategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HXCategoryKit.framework; path = HXCategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0C97C12B9069885017A73B8CA974D07 /* Pods-HXCategoryKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HXCategoryKit_Example-resources.sh"; sourceTree = "<group>"; };
-		B65327934A14796476BB28C938FEFDE1 /* HXCategoryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HXCategoryKit.modulemap; sourceTree = "<group>"; };
 		B7D0FF434C39D04DFAA69CDF36E32F28 /* Pods-HXCategoryKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HXCategoryKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BF428750AE62C33318A5FDA343AE987A /* TFHppleElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
-		BFC701A489659DB854E50383D339FA17 /* ResultInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ResultInfo.swift; sourceTree = "<group>"; };
-		C561F06A27EB18271B84406687643398 /* XPathQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
-		C814E8A85FC56B17FE8EAED62D57FC35 /* HXCategoryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HXCategoryKit-umbrella.h"; sourceTree = "<group>"; };
+		BC325BC065EAAFB753EB3503C7E9F0E6 /* HXCategoryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HXCategoryKit-umbrella.h"; sourceTree = "<group>"; };
 		C947698C5085F7AAA788B7AA1CE4561F /* Pods-HXCategoryKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HXCategoryKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		CA57FACBAAD126FFFA470555022C1D38 /* Pods-HXCategoryKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HXCategoryKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CDF82E543DE7A4EA9C7995EC78B290F4 /* MCTabBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MCTabBarView.swift; sourceTree = "<group>"; };
-		CF3267E27AB33D9C84BCFFDD7BDF3EFB /* JXLayoutButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JXLayoutButton.h; sourceTree = "<group>"; };
 		D33A6CDE1A3789B0105F62C04903D3DA /* Pods-HXCategoryKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HXCategoryKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D66E0ADC8F325A85E375396615ED3331 /* GrandModel+Convert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "GrandModel+Convert.swift"; sourceTree = "<group>"; };
-		D8D12563E6411D19D2E83CFE4A1B390B /* SegmentButtonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentButtonView.swift; sourceTree = "<group>"; };
-		DD1AD23AF334C436D80AD57F3A4BC6F8 /* HTTPClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		D7DEB8EA94A822E254450F7DD17A5C42 /* HXCategoryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HXCategoryKit-prefix.pch"; sourceTree = "<group>"; };
 		E1C4C3D221B75D6D608F88D9AE995C23 /* Pods-HXCategoryKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HXCategoryKit_Tests.modulemap"; sourceTree = "<group>"; };
 		E9B6693E02B02DA39DCF78A0D1DD70A7 /* Pods-HXCategoryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXCategoryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F010BB0E57E5365904D0B61F9880E53B /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		F934AE74D6BFE28FA7D6B9CC3AF9F56B /* HXCategoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HXCategoryKit-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0020CADE9E4612D22E605677126C5005 /* Frameworks */ = {
+		281EE83E779EB92E7F9A96EF6ABBACD2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01884BDD030731CECD8C1033CBF28F12 /* Foundation.framework in Frameworks */,
+				E3AEC7BACA876799292160EA47923E1B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +96,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		012353D703D6B0C68AA2B4264420237C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				55C6718A88922865B034DE793BC52B06 /* HXCategoryKit.modulemap */,
+				1016AEF9853E51BDB66F0947D5F7907F /* HXCategoryKit.xcconfig */,
+				F934AE74D6BFE28FA7D6B9CC3AF9F56B /* HXCategoryKit-dummy.m */,
+				D7DEB8EA94A822E254450F7DD17A5C42 /* HXCategoryKit-prefix.pch */,
+				BC325BC065EAAFB753EB3503C7E9F0E6 /* HXCategoryKit-umbrella.h */,
+				14EAFB61F8B61B21AD13ADD4E9976B6E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HXCategoryKit";
+			sourceTree = "<group>";
+		};
 		142E15820149B8D904C27FE615BD8E83 /* Pods-HXCategoryKit_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,26 +126,6 @@
 			);
 			name = "Pods-HXCategoryKit_Example";
 			path = "Target Support Files/Pods-HXCategoryKit_Example";
-			sourceTree = "<group>";
-		};
-		1808ADFCB713AA0E87449C533A78969A /* Nav */ = {
-			isa = PBXGroup;
-			children = (
-				4D1DDC1711FDCB313B0D1A2F8E802DC2 /* CustomTabBarViewController.swift */,
-				3A4430F246C40DBA2F3758B7AAB55379 /* MCTabBarButton.swift */,
-				CDF82E543DE7A4EA9C7995EC78B290F4 /* MCTabBarView.swift */,
-			);
-			name = Nav;
-			path = Nav;
-			sourceTree = "<group>";
-		};
-		1CCA3F1DB90B621CAAA7F34CD35BFE5F /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				DD1AD23AF334C436D80AD57F3A4BC6F8 /* HTTPClient.swift */,
-			);
-			name = Network;
-			path = Network;
 			sourceTree = "<group>";
 		};
 		1E674DB2BBEE485B30B5142DC3BE787B /* Pods-HXCategoryKit_Tests */ = {
@@ -206,75 +146,16 @@
 			path = "Target Support Files/Pods-HXCategoryKit_Tests";
 			sourceTree = "<group>";
 		};
-		38C5166B9C03BEA68EE71AD4661C463E /* hpple */ = {
+		5BF191F3E2AAE3171D09EEADA912BA6F /* HXCategoryKit */ = {
 			isa = PBXGroup;
 			children = (
-				9E8EAF3E6173F8DFB0CAB7257F56EE5B /* TFHpple.h */,
-				77F203DF73A91E72CFD2CF80E0444810 /* TFHpple.m */,
-				BF428750AE62C33318A5FDA343AE987A /* TFHppleElement.h */,
-				6960C11B16B71872E3E8F3E5A00C769D /* TFHppleElement.m */,
-				C561F06A27EB18271B84406687643398 /* XPathQuery.h */,
-				54E530D3FB8F1DEFB4C5755420351D79 /* XPathQuery.m */,
+				365D43EF9362969A63B40986246994CF /* ReplaceMe.m */,
+				167B6D64B6E77A5CA13A7F5E0FDAE209 /* UINavigationController+FDFullscreenPopGesture.h */,
+				9FF22F7D84CE29873A7F7E3F802BDE0D /* UINavigationController+FDFullscreenPopGesture.m */,
+				012353D703D6B0C68AA2B4264420237C /* Support Files */,
 			);
-			name = hpple;
-			path = hpple;
-			sourceTree = "<group>";
-		};
-		4932B9C0BF1B25CC04393CA78687A82D /* JKLayoutButton */ = {
-			isa = PBXGroup;
-			children = (
-				CF3267E27AB33D9C84BCFFDD7BDF3EFB /* JXLayoutButton.h */,
-				77332972EF5B886B932B749DF134C8EC /* JXLayoutButton.m */,
-			);
-			name = JKLayoutButton;
-			path = JKLayoutButton;
-			sourceTree = "<group>";
-		};
-		4C0B5EE748DAE40BE2EA251A40B884E4 /* SDK */ = {
-			isa = PBXGroup;
-			children = (
-				38C5166B9C03BEA68EE71AD4661C463E /* hpple */,
-			);
-			name = SDK;
-			path = SDK;
-			sourceTree = "<group>";
-		};
-		4F9D91389331ED74A5226D38F59CD769 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				60A4975D53AB4A82A4EE9D32DE46080D /* BaseViewController.swift */,
-				BFC701A489659DB854E50383D339FA17 /* ResultInfo.swift */,
-				6EED6DA0AC7C666078A95230FB16F76A /* GrandModel */,
-			);
-			name = Base;
-			path = Base;
-			sourceTree = "<group>";
-		};
-		66E6EC97F52EE96A763B5455C6BC25AD /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-				4F9D91389331ED74A5226D38F59CD769 /* Base */,
-				860A2E678B60D9215E4A09D5D1B6A645 /* Controller */,
-				E1B0B8F8A1D7452E5E03FA47A900E471 /* Model */,
-				1808ADFCB713AA0E87449C533A78969A /* Nav */,
-				1CCA3F1DB90B621CAAA7F34CD35BFE5F /* Network */,
-				4C0B5EE748DAE40BE2EA251A40B884E4 /* SDK */,
-				C790F96657B2368C64FC3CC2527E6833 /* Tool */,
-			);
-			name = Tool;
-			path = HXCategoryKit/Classes/Tool;
-			sourceTree = "<group>";
-		};
-		6EED6DA0AC7C666078A95230FB16F76A /* GrandModel */ = {
-			isa = PBXGroup;
-			children = (
-				5625F387920BE40EEB8F961779C1809D /* GrandModel.swift */,
-				D66E0ADC8F325A85E375396615ED3331 /* GrandModel+Convert.swift */,
-				654CCCA9E0885B79AC88FC1EA1315297 /* GrandModel+Map.swift */,
-				4A8AEC3A560C745FD2A28BC0224A1BE2 /* GrandType.swift */,
-			);
-			name = GrandModel;
-			path = GrandModel;
+			name = HXCategoryKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7527B8A6A76EBB0FFC1D235ACA41F7C7 /* Products */ = {
@@ -287,37 +168,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		795C6530B24E1A747A211C4B578FFB55 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BF191F3E2AAE3171D09EEADA912BA6F /* HXCategoryKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				AA11A4F71480BF622535EFD5C36424D3 /* Development Pods */,
+				795C6530B24E1A747A211C4B578FFB55 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				7527B8A6A76EBB0FFC1D235ACA41F7C7 /* Products */,
 				9E8D78ED3BC491C39DCC56028827EF21 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8151A1E15B7B63A4AFB7EC3114FDF7C4 /* HXCategoryKit */ = {
-			isa = PBXGroup;
-			children = (
-				97BFB4B10236025F63818C7541910108 /* ReplaceMe.m */,
-				CC2A9D5C376AB6D11BC1819707AF1A7F /* Support Files */,
-				66E6EC97F52EE96A763B5455C6BC25AD /* Tool */,
-			);
-			name = HXCategoryKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		860A2E678B60D9215E4A09D5D1B6A645 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				D8D12563E6411D19D2E83CFE4A1B390B /* SegmentButtonView.swift */,
-				0D19F9CF14367D3D32A3C3D70735CEB1 /* SegmentMenuTable.swift */,
-				4932B9C0BF1B25CC04393CA78687A82D /* JKLayoutButton */,
-			);
-			name = Controller;
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		9E8D78ED3BC491C39DCC56028827EF21 /* Targets Support Files */ = {
@@ -329,24 +196,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A6825DF4DB5A82835F0518AFE8858D6B /* GrandCue */ = {
-			isa = PBXGroup;
-			children = (
-				76BA049A742858E1C77C62A7395865BA /* GrandCue.swift */,
-				42C175DD437E84F9D122AC1C23DC9E38 /* Toast.swift */,
-			);
-			name = GrandCue;
-			path = GrandCue;
-			sourceTree = "<group>";
-		};
-		AA11A4F71480BF622535EFD5C36424D3 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8151A1E15B7B63A4AFB7EC3114FDF7C4 /* HXCategoryKit */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -355,50 +204,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C790F96657B2368C64FC3CC2527E6833 /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-				572610A7E6BF9F857C65087C1B78C187 /* CacheTool.swift */,
-				0D867988405BB8CC48CDB4F8AFD91671 /* ColorTool.swift */,
-				A6A105A1619FF95DB8E92EEEF418D4F4 /* GrandStore.swift */,
-				784C996B82BADBB3EE232F9F6EA06587 /* Tool.swift */,
-				F010BB0E57E5365904D0B61F9880E53B /* UINavigationController+FDFullscreenPopGesture.h */,
-				0DDCF3F1264FE3C58CF48913D77A2078 /* UINavigationController+FDFullscreenPopGesture.m */,
-				A6825DF4DB5A82835F0518AFE8858D6B /* GrandCue */,
-			);
-			name = Tool;
-			path = Tool;
-			sourceTree = "<group>";
-		};
-		CC2A9D5C376AB6D11BC1819707AF1A7F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B65327934A14796476BB28C938FEFDE1 /* HXCategoryKit.modulemap */,
-				1E91444FFA5911463DD41B9597749442 /* HXCategoryKit.xcconfig */,
-				27E1E72F56A7FDFBF6389280A8366F82 /* HXCategoryKit-dummy.m */,
-				9D5109DAA872A7429DADAC374DD2E720 /* HXCategoryKit-prefix.pch */,
-				C814E8A85FC56B17FE8EAED62D57FC35 /* HXCategoryKit-umbrella.h */,
-				3015F93050E922C045F3382C9AC69EEA /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HXCategoryKit";
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		E1B0B8F8A1D7452E5E03FA47A900E471 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				8EBBD4092E82070364FD5A49A67FF94B /* BookClient.swift */,
-			);
-			name = Model;
-			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -412,24 +223,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5098511C203ED3BAF96B7333CA48BEFC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD821CDC69B513D09745269669930E1 /* HXCategoryKit-umbrella.h in Headers */,
+				07B1E17FE98E28CFEF1C4295E6C66591 /* UINavigationController+FDFullscreenPopGesture.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		590AD677013E5FC2CD6D20B6697CA0C4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				986B4EF372830ED143F9825DC6CAF31F /* Pods-HXCategoryKit_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		815E7900B0720D2FFBD38F194DD22ABE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B7FE2584783F75DC34DCB2BCBDB5F4E /* HXCategoryKit-umbrella.h in Headers */,
-				6F70E7D17C0EA18ECF28C1BB9102BE11 /* JXLayoutButton.h in Headers */,
-				50E977D982EABF4E9C676B52DFE821DB /* TFHpple.h in Headers */,
-				8D6DF85A8EBC86A6DBEB899F3D2B3B19 /* TFHppleElement.h in Headers */,
-				2C68D1F47A9F596B6975AD24F3C81CDB /* UINavigationController+FDFullscreenPopGesture.h in Headers */,
-				B2B2903D9F296999289A79F2A711D4B0 /* XPathQuery.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,13 +278,13 @@
 			productReference = 433DC020CCD331C625CDC8C984E8BF9A /* Pods_HXCategoryKit_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B0E96CDA2E603BB89EF487903C41F70A /* HXCategoryKit */ = {
+		A79B2BB37360E9DF22BC2EBFC08CC20F /* HXCategoryKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAFF5249A0FC1691196F169C13B980DE /* Build configuration list for PBXNativeTarget "HXCategoryKit" */;
+			buildConfigurationList = 5C4FEDF2CEC5B9BC971A5BFB2D4E1106 /* Build configuration list for PBXNativeTarget "HXCategoryKit" */;
 			buildPhases = (
-				726D9EA382365269AE230B5033CEFDDC /* Sources */,
-				0020CADE9E4612D22E605677126C5005 /* Frameworks */,
-				815E7900B0720D2FFBD38F194DD22ABE /* Headers */,
+				DF8C701F474D398E4896CE8768151F3D /* Sources */,
+				281EE83E779EB92E7F9A96EF6ABBACD2 /* Frameworks */,
+				5098511C203ED3BAF96B7333CA48BEFC /* Headers */,
 			);
 			buildRules = (
 			);
@@ -509,7 +316,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B0E96CDA2E603BB89EF487903C41F70A /* HXCategoryKit */,
+				A79B2BB37360E9DF22BC2EBFC08CC20F /* HXCategoryKit */,
 				3248E7D0C819CE27C47E01E747124177 /* Pods-HXCategoryKit_Example */,
 				9660B83EF9F82E14A0E2F246624A0AA8 /* Pods-HXCategoryKit_Tests */,
 			);
@@ -517,39 +324,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		726D9EA382365269AE230B5033CEFDDC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FC0AB212BF3771AB55982FF9B16D8A9F /* BaseViewController.swift in Sources */,
-				9EF46747C4A1DC44A71C732C25A9CCD9 /* BookClient.swift in Sources */,
-				3540C5E4CC28CA888231837BDA1D9069 /* CacheTool.swift in Sources */,
-				C3E7E09B931E1FF77E291F4B4C8626DE /* ColorTool.swift in Sources */,
-				6DB41E81450565F3A5C6B5232062FBA7 /* CustomTabBarViewController.swift in Sources */,
-				C47F61F8286A28177F9CBE018B8ABC24 /* GrandCue.swift in Sources */,
-				1090ABCF9E9C04F61494CAB494CEB0B7 /* GrandModel+Convert.swift in Sources */,
-				FC7DEBBED6A05347AF67FF30932D9C5C /* GrandModel+Map.swift in Sources */,
-				3731C385BC972A6E0438E47D4BAFC87B /* GrandModel.swift in Sources */,
-				17FA8FAC42DE4C355BAD63027E2D8F64 /* GrandStore.swift in Sources */,
-				5DF88B9398F210E30E3E68552BDD76E1 /* GrandType.swift in Sources */,
-				E4B97368209C6B253D1EC3D6AF845971 /* HTTPClient.swift in Sources */,
-				66378C558AA8778570637BB12AB627B7 /* HXCategoryKit-dummy.m in Sources */,
-				8B02AD3EFDD53F1BBED6608ADEDF397D /* JXLayoutButton.m in Sources */,
-				2166958100869DB79EDE840C8EA8F048 /* MCTabBarButton.swift in Sources */,
-				644E5392DE8012769728D2AD853D0BE9 /* MCTabBarView.swift in Sources */,
-				224D2E4EFCA13C4C4AF350BB7D489239 /* ReplaceMe.m in Sources */,
-				5382B1E569964595181F5034CAEF3DF6 /* ResultInfo.swift in Sources */,
-				E3F7824A14E9CA44E491F658E92105F4 /* SegmentButtonView.swift in Sources */,
-				70ACABFA8E3722127814229A031D701B /* SegmentMenuTable.swift in Sources */,
-				FFDB5713AC10BFC7569F81D93C4164C3 /* TFHpple.m in Sources */,
-				596BC980B3412CFB00DF63D047576790 /* TFHppleElement.m in Sources */,
-				7CA83C3375B248B0633B3667C58CFF3E /* Toast.swift in Sources */,
-				36DFF302B03BFCE029820A5CF4BF57E5 /* Tool.swift in Sources */,
-				08A35D2DE82908D2163C3C4D465097A6 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
-				7C382564E52143C347E9528966A248D3 /* XPathQuery.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9533855EDDF9472C89335C5B57909E09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -566,13 +340,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF8C701F474D398E4896CE8768151F3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C17A014E32AAB1DF3C0D9B026745FC /* HXCategoryKit-dummy.m in Sources */,
+				7D9A5FCF47A4443142B3930924A11A71 /* ReplaceMe.m in Sources */,
+				46728B8999459D66429DC1D0C8492683 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		9A8A927463DB3ADAB915F0F6C06F5452 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HXCategoryKit;
-			target = B0E96CDA2E603BB89EF487903C41F70A /* HXCategoryKit */;
+			target = A79B2BB37360E9DF22BC2EBFC08CC20F /* HXCategoryKit */;
 			targetProxy = 540EB2EC5DEBD0544E5B625910CAD1EB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -610,43 +394,9 @@
 			};
 			name = Debug;
 		};
-		199BC80491E0D8AFE074DA97837136A0 /* Debug */ = {
+		14125A6C055E814D385047899335C660 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97571B0B64478F7C1A590BBD270960AF /* Pods-HXCategoryKit_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HXCategoryKit_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HXCategoryKit_Example/Pods-HXCategoryKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_HXCategoryKit_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		20F1211B45BF39386909863E3512E5E3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E91444FFA5911463DD41B9597749442 /* HXCategoryKit.xcconfig */;
+			baseConfigurationReference = 1016AEF9853E51BDB66F0947D5F7907F /* HXCategoryKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -667,7 +417,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -734,9 +483,9 @@
 			};
 			name = Debug;
 		};
-		3BF6494DC6ECD4F5CD07241A486A4111 /* Release */ = {
+		57D831E9D8B5AE6127627313E3A5B2B1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E91444FFA5911463DD41B9597749442 /* HXCategoryKit.xcconfig */;
+			baseConfigurationReference = 1016AEF9853E51BDB66F0947D5F7907F /* HXCategoryKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -757,7 +506,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -853,7 +601,39 @@
 			};
 			name = Release;
 		};
-		A21429159C10BC3ED763A53254D4F7B7 /* Release */ = {
+		96EBD823F735166B1E29CC39CC1E9C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97571B0B64478F7C1A590BBD270960AF /* Pods-HXCategoryKit_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HXCategoryKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HXCategoryKit_Example/Pods-HXCategoryKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HXCategoryKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9A2B9F3D73AC809F9386424197485CF4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E9B6693E02B02DA39DCF78A0D1DD70A7 /* Pods-HXCategoryKit_Example.release.xcconfig */;
 			buildSettings = {
@@ -879,7 +659,6 @@
 				PRODUCT_NAME = Pods_HXCategoryKit_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -899,6 +678,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		5C4FEDF2CEC5B9BC971A5BFB2D4E1106 /* Build configuration list for PBXNativeTarget "HXCategoryKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14125A6C055E814D385047899335C660 /* Debug */,
+				57D831E9D8B5AE6127627313E3A5B2B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6D7FCFA2DE7C6F09B52F64A474B569C4 /* Build configuration list for PBXNativeTarget "Pods-HXCategoryKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -908,20 +696,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAFF5249A0FC1691196F169C13B980DE /* Build configuration list for PBXNativeTarget "HXCategoryKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				20F1211B45BF39386909863E3512E5E3 /* Debug */,
-				3BF6494DC6ECD4F5CD07241A486A4111 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		E391443CC5DDC85056643C00F1A68373 /* Build configuration list for PBXNativeTarget "Pods-HXCategoryKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				199BC80491E0D8AFE074DA97837136A0 /* Debug */,
-				A21429159C10BC3ED763A53254D4F7B7 /* Release */,
+				96EBD823F735166B1E29CC39CC1E9C30 /* Debug */,
+				9A2B9F3D73AC809F9386424197485CF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
