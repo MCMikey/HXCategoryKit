@@ -1,5 +1,5 @@
 PODS:
-  - HXCategoryKit (0.0.6)
+  - HXCategoryKit (0.0.7)
 
 DEPENDENCIES:
   - HXCategoryKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  HXCategoryKit: 0bbd70aeb7d87a2f2e832ec9efbfb0c2d0bc430b
+  HXCategoryKit: 761a95644284f292f082ebcc7079aa49767666b5
 
 PODFILE CHECKSUM: e529875630d4a1461004b823780594d6ca9066fe
 

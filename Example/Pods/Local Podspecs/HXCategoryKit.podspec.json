@@ -1,6 +1,6 @@
 {
   "name": "HXCategoryKit",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "summary": "A short description of HXCategoryKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/MCMikey/HXCategoryKit",
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/MCMikey/HXCategoryKit.git",
-    "tag": "0.0.6"
+    "tag": "0.0.7"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "8.1"
   },
   "source_files": "HXCategoryKit/Classes/**/*"
 }

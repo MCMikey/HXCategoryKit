@@ -48,7 +48,6 @@ extension NSObject {
         objc_setAssociatedObject(self, &AssociatedKeys.ElementDicName, ele, .OBJC_ASSOCIATION_RETAIN)
     }
     
-    
     /*
     var elementDic: NSMutableDictionary? {
         get {
