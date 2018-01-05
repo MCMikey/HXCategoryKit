@@ -28,7 +28,7 @@ extension UIImageView: UIScrollViewDelegate {
 
     }
     
-    func tapShowImg(_ sender: UIGestureRecognizer) {
+    @objc func tapShowImg(_ sender: UIGestureRecognizer) {
         if sender.view is UIImageView {
             showImgView(sender.view as! UIImageView)
         }
@@ -86,7 +86,7 @@ extension UIImageView: UIScrollViewDelegate {
     }
     
     // 隐藏
-    func hideImgView(_ sender: UIGestureRecognizer) {
+    @objc func hideImgView(_ sender: UIGestureRecognizer) {
         let imgView = sender.view?.viewWithTag(999)
         self.alpha = 1
         let view = self.element()["goBackgroundView"] as! UIScrollView
@@ -102,7 +102,7 @@ extension UIImageView: UIScrollViewDelegate {
     }
     
     // 双击事件
-    func handleDoubleTap(_ sender: UIGestureRecognizer) {
+    @objc func handleDoubleTap(_ sender: UIGestureRecognizer) {
         //Log(message: "handleDoubleTap")
         let view = self.element()["goBackgroundView"] as! UIScrollView
 
