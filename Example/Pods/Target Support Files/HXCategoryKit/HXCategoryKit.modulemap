@@ -1,0 +1,6 @@
+framework module HXCategoryKit {
+  umbrella header "HXCategoryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
